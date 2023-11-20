@@ -1,0 +1,191 @@
+ext.config = [
+        compileSdkVersion: 33,
+        minSdkVersion    : 23,
+        targetSdkVesion  : 33,
+        buildVersionCode: 20,
+        buildVesionName : "0.0.1",
+        applicationId    : "com.ranjit.galleryapplication",
+]
+
+ext.versions = [
+        junitVersion                 : "4.13.2",
+        junitExtVersion              : "1.1.3",
+        espressoCoreVersion          : "3.4.0",
+        roomVersion                  : "2.4.0",
+        retrofitVersion              : "2.9.0",
+        gsonVersion                  : "2.8.8",
+        appCompatVesion              : "1.3.1",
+        kotlinAndroidExtensionVersion: "1.6.0",
+        hiltVersion                  : "2.44",
+        okhttp3LoggingVersion        : "4.9.1",
+        kotlinVersion                : "1.8.0",
+        materialVersion              : "1.4.0",
+        timberVersion                : "5.0.1",
+        constraintLayoutVersion      : "2.1.0",
+        firebaseBomVersion           : "29.2.1",
+        firebaseConfigVersion        : "21.1.1",
+        datastoreVersion             : "1.0.0",
+        coroutinesVersion            : "1.5.2",
+        viewModelKtxVersion          : "2.6.1",
+        activityKtxVersion           : "1.5.0",
+        fragmentKtxVersion           : "1.5.2",
+        sdpVersion                   : "1.0.6",
+        bindingcollectionVersion     : "4.0.0",
+
+        leakcanaryVersion            : "2.7",
+        easyPermissionVersion        : "1.0.0",
+        qrCodeZxingLibVersion        : "3.6.0",
+        glideVersion                 : "4.11.0",
+        progressLoaderVersion        : "2.1.0",
+
+        exoPlayerVersion             : "2.17.1",
+        exoPlayerCoreVersion         : "2.17.1",
+        exoPlayerDashVersion         : "2.17.1",
+        exoPlayerUIVersion           : "2.17.1",
+        exoPlayerHLSVersion          : "2.17.1",
+
+        swipeRefreshLayoutVersion    : "1.1.0",
+
+        inAppUpdateVersion           : "1.6.4",
+
+        documentFileVersion           : "1.0.1",
+        exifInterfaceVersion           : "1.3.2",
+        uCropLibraryVersion           : "2.2.6",
+
+
+        chuckerVersion               : "3.5.2",
+        jacksonVersion               : "2.12.1",
+        jacksonRetroVersion          : "2.9.0",
+        work_version                 : "2.7.1",
+        dagger_hilt_work_version     : "1.0.0",
+        simpleRatingBarVersion       : "1.5.1",
+        bindingcollectionVersion     : "4.0.0",
+        textdrawableVersion          : "1.0.1",
+        sharpVersion                 : "1.1.0",
+
+]
+
+ext.deps = [
+
+        /*****************************************************************************************
+         *  Test Libraries
+         *****************************************************************************************/
+        'junit'                  : "junit:junit:$versions.junitVersion",
+        'junit_ext'              : "androidx.test.ext:junit:$versions.junitExtVersion",
+        'espresso_core'          : "androidx.test.espresso:espresso-core:$versions.espressoCoreVersion",
+        'room_test'              : "androidx.room:room-testing:$versions.roomVersion",
+
+        // AndroidX
+        'androidx_appcompat'     : "androidx.appcompat:appcompat:$versions.appCompatVesion",
+        'material'               : "com.google.android.material:material:$versions.materialVersion",
+        'constraintlayout'       : "androidx.constraintlayout:constraintlayout:$versions.constraintLayoutVersion",
+
+        // Kotlin
+        'kotlin_core_ktx'        : "androidx.core:core-ktx:$versions.kotlinVersion",
+        'activity_ktx'           : "androidx.activity:activity-ktx:$versions.activityKtxVersion",
+        'fragment_ktx'           : "androidx.fragment:fragment-ktx:$versions.fragmentKtxVersion",
+
+        // 3rd Party Open Source
+        // Retrofit
+        'retrofit'               : "com.squareup.retrofit2:retrofit:$versions.retrofitVersion",
+        'retrofit_gson_converter': "com.squareup.retrofit2:converter-gson:$versions.retrofitVersion",
+        'okhttp3_logging'        : "com.squareup.okhttp3:logging-interceptor:$versions.okhttp3LoggingVersion",
+
+        'gson'                   : "com.google.code.gson:gson:$versions.gsonVersion",
+
+        // Hilt
+        'hilt'                   : "com.google.dagger:hilt-android:$versions.hiltVersion",
+        'hilt_compiler'          : "com.google.dagger:hilt-compiler:$versions.hiltVersion",
+
+        // Logging
+        'timber'                 : "com.jakewharton.timber:timber:$versions.timberVersion",
+
+        // Crashlytics
+        'firebase_bom'           : "com.google.firebase:firebase-bom:$versions.firebaseBomVersion",
+        'crashlytics'            : "com.google.firebase:firebase-crashlytics-ktx",
+        'analytics'              : "com.google.firebase:firebase-analytics-ktx",
+        'messaging'              : "com.google.firebase:firebase-messaging-ktx",
+        'firebase_config'        : "com.google.firebase:firebase-config-ktx:$versions.firebaseConfigVersion",
+
+        // Room
+        'room'                   : "androidx.room:room-runtime:$versions.roomVersion",
+        'room_compiler'          : "androidx.room:room-compiler:$versions.roomVersion",
+
+        // Data Store
+        'datastore'              : "androidx.datastore:datastore-preferences:$versions.datastoreVersion",
+
+        // Coroutines
+        'coroutines'             : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutinesVersion",
+        'coroutines_core'        : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutinesVersion",
+
+        //ViewModel
+        'lifecycle_viewmodel'    : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.viewModelKtxVersion",
+
+        // screen sizes
+        'sdp'                    : "com.intuit.sdp:sdp-android:$versions.sdpVersion",
+
+        // Binding Collection Adapter
+        'bindingcollection'      : "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:$versions.bindingcollectionVersion",
+        'bindingcollection_rv'   : "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:$versions.bindingcollectionVersion",
+        'bindingcollection_vp2'  : "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-viewpager2:$versions.bindingcollectionVersion",
+
+        // Easy Permissions
+        'easyPermission'         : "pub.devrel:easypermissions:$versions.easyPermissionVersion",
+
+        //Qr-Code scanner
+        'qrCodeZxingLib'         : "com.journeyapps:zxing-android-embedded:$versions.qrCodeZxingLibVersion",
+
+        // Glide
+        'glide'                  : "com.github.bumptech.glide:glide:$versions.glideVersion",
+        'glideCompiler'          : "com.github.bumptech.glide:compiler:$versions.glideVersion",
+
+        //Progress Button loader
+        'progressbuttonLoader'   : "com.github.razir.progressbutton:progressbutton:$versions.progressLoaderVersion",
+
+        //Exo player
+        'exoPlayer'              : "com.google.android.exoplayer:exoplayer:$versions.exoPlayerVersion",
+        'exoPlayer_core'         : "com.google.android.exoplayer:exoplayer-core:$versions.exoPlayerCoreVersion",
+        'exoPlayer_dash'         : "com.google.android.exoplayer:exoplayer-dash:$versions.exoPlayerDashVersion",
+        'exoPlayer_ui'           : "com.google.android.exoplayer:exoplayer-ui:$versions.exoPlayerUIVersion",
+        'exoPlayer_hls'          : "com.google.android.exoplayer:exoplayer-hls:$versions.exoPlayerHLSVersion",
+
+        //Swipe Refresh Layout
+        'swipeRefreshLayout'     : "androidx.swiperefreshlayout:swiperefreshlayout:$versions.swipeRefreshLayoutVersion",
+
+        //In App Update
+        'inAppUpdate'            : "com.google.android.play:core:$versions.inAppUpdateVersion",
+
+        // DocumentFile
+        'documentFile'           : "androidx.documentfile:documentfile:$versions.documentFileVersion",
+        'exifInterface'          : "androidx.exifinterface:exifinterface:$versions.exifInterfaceVersion",
+
+        // Crop Library
+        'ucrop'               : "com.github.yalantis:ucrop:$versions.uCropLibraryVersion",
+
+        // Work Manger Coroutine Library
+        'workManagerKotlinCoroutines' : "androidx.work:work-runtime-ktx:$versions.work_version",
+        'daggerHiltWork' : "androidx.hilt:hilt-work:$versions.dagger_hilt_work_version",
+
+        // Jackson Library
+        'jackson_core'          : "com.fasterxml.jackson.core:jackson-core:$versions.jacksonVersion",
+        'jackson_annotations'   : "com.fasterxml.jackson.core:jackson-annotations:$versions.jacksonVersion",
+        'jackson_data'          : "com.fasterxml.jackson.core:jackson-databind:$versions.jacksonVersion",
+        'jackson_module'        : "com.fasterxml.jackson.module:jackson-module-kotlin:$versions.jacksonVersion",
+        'jackson_retro'         : "com.squareup.retrofit2:converter-jackson:$versions.jacksonRetroVersion",
+
+
+        /*****************************************************************************************
+         *  Debug Libraries
+         *****************************************************************************************/
+        // Leak Canary
+        'leakcanary'             : "com.squareup.leakcanary:leakcanary-android:$versions.leakcanaryVersion",
+
+        'chucker'                : "com.github.chuckerteam.chucker:library:$versions.chuckerVersion",
+        'chuckerNoOp'             : "com.github.chuckerteam.chucker:library-no-op:$versions.chuckerVersion",
+        'simpleRatingBar'            : "com.github.ome450901:SimpleRatingBar:$versions.simpleRatingBarVersion",
+
+        'sharpLib'                    : "com.pixplicity.sharp:library:$versions.sharpVersion",
+        'textdrawableLib'              : "com.amulyakhare:com.amulyakhare.textdrawable:$versions.textdrawableVersion"
+
+]
+

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">data</string>
+    <string name="msg_no_connectivity">You are not connected to internet. Please connect to the internet and try again.</string>
+    <string name="err_msg_generic">Something went wrong. Please try again later.</string>
+
+</resources>
