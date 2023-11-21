@@ -129,3 +129,6 @@ and replace the xxxx with the Client ID and the Client Secret Key you got from r
 ![Screenshot_list](Screenshot_list.jpg)
 ![Screenshot_grid](Screenshot_grid.jpg)
 ![Screenshot_detail](Screenshot_detail.jpg)
+[Screenshot_list](https://drive.google.com/file/d/1llta4W5JafLhD3dAhiXfqpT2nDai32VV/view?usp=sharing)
+[Screenshot_grid](https://drive.google.com/file/d/1bCBQZltoRPDI0Dbzk4chTUNNVOT0r6a-/view?usp=sharing)
+[Screenshot_detail](https://drive.google.com/file/d/1HTzhZEy4fWPqBzoMNaE7I3csAR0bwlLj/view?usp=sharing)
