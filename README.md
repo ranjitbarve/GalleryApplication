@@ -2,11 +2,31 @@
 Create an application that searches for the top images of the week from
 the Imgur gallery API and displays them in a list.
 
+# GalleryApplication
+[Download the APK](https://drive.google.com/file/d/1oUYCaofrlsM1eJiEWn-EBtMqBY3VHtsu/view?usp=sharing)
 
 ## Prerequisites
 - Android Studio installed
 - A physical Android device or an emulator
 
+## Getting Started
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/ranjitbarve/GalleryApplication.git
+    ```
+
+2. **Open the Project in Android Studio:**
+
+  - Open Android Studio.
+  - Select `Open an existing Android Studio project`.
+  - Navigate to the directory where you cloned the repository and select the `build.gradle` file.
+
+3. **Build and Run:**
+
+  - Connect your Android device to your computer or start an emulator.
+  - Click on the green "Run" button in Android Studio or use the shortcut `Shift + F10` to build and run the application on your device or emulator.
 
 ## GalleryApplication Features
 * Show Gallery images in a list and grid view
@@ -15,6 +35,17 @@ the Imgur gallery API and displays them in a list.
 * When clicking an image in the gallery - show its details: big image, title, description.
 * Allow switching between list/grid view
 * Hide/show the action bar when scrolling the list
+
+## Usage
+
+1. **Launch the App:**
+
+  - Open the GalleryApplication on your Android device.
+
+2. **Explore the Gallery:**
+
+  - Navigate through the gallery to view images.
+  - Perform actions such as view image in larger size.
 
 ## Technical Skills
 * [Kotlin](https://kotlinlang.org/) + [Coroutines](https://developer.android.com/kotlin/coroutines) for performing background operations
@@ -95,6 +126,6 @@ and replace the xxxx with the Client ID and the Client Secret Key you got from r
 * Switching between list/grid view - By changing the LayoutManager a RecyclerView can be used to implement a standard vertically scrolling list, a uniform grid scrolling collections and more.
 
 ## Screens
-![](Screenshot_list.jpg)
-![](Screenshot_grid.jpg)
-![](Screenshot_detail.jpg)
+![Screenshot_list](Screenshot_list.jpg)
+![Screenshot_grid](Screenshot_grid.jpg)
+![Screenshot_detail](Screenshot_detail.jpg)
